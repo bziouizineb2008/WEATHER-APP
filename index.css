@@ -1,0 +1,53 @@
+:root {
+  --ink: #211b16;
+  --muted: #71695f;
+  --paper: #fbf9f5;
+  --line: #eae4db;
+  --orange: #f58a1f;
+  --orange-dark: #df7410;
+  --heading: 'Avenir Next', Avenir, 'Trebuchet MS', sans-serif;
+  --body: 'Avenir Next', Avenir, 'Trebuchet MS', sans-serif;
+
+  font-family: var(--body);
+  color: var(--ink);
+  background: var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 3px solid rgba(245, 138, 31, 0.42);
+  outline-offset: 3px;
+}
+
+#root {
+  min-height: 100vh;
+}
